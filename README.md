@@ -20,7 +20,8 @@ A continuación se describe la preparación del entrono con Atom.
  - Instalar Atom
     [Instalador](http://atom.io/)
  - Abrir Atom e ir a **File>Settings>install**
- - Instalar el paquete **atom-typescript**
+ - Instalar el paquete **atom-typescript** para la compilación y deteccion de errores en *TypeScript*.
+ - Instalar el paquete **angular-2-typescript-snippets** para los atajos de *Angular 2*.
  - Reinicar Atom.
 
 ##Instalacion
