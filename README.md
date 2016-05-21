@@ -45,9 +45,12 @@ Seguir los siguientes pasos para instalar y preparar el proyecto **Angular 2**.
     - Crear nuevo repositorio
       ```
       git init
+      
       git add .
+      
       git commit -m "Project Created"
       ```
+      
 ##Ejecutar
 En una consola de NodeJS
 
