@@ -1,7 +1,7 @@
 import {bootstrap} from "@angular/platform-browser-dynamic";
-import { ROUTER_PROVIDERS } from '@angular/router';
 import { HTTP_PROVIDERS } from '@angular/http';
 
 import {AppComponent} from "./app.component";
+import {appRouterProviders} from "./app.routes.ts";
 
-bootstrap(AppComponent,[HTTP_PROVIDERS,ROUTER_PROVIDERS]);
+bootstrap(AppComponent,[appRouterProviders,HTTP_PROVIDERS]).catch(err => console.error(err));
