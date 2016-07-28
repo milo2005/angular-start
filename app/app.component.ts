@@ -6,9 +6,4 @@ import {Router,ROUTER_DIRECTIVES} from '@angular/router';
   template:"<router-outlet></router-outlet>",
   directives:[ROUTER_DIRECTIVES]
 })
-export class AppComponent implements OnInit {
-  constructor(private router: Router) {}
-  ngOnInit(){
-    //this.router.navigate(["/"]);
-  }
-}
+export class AppComponent {}
