@@ -5,6 +5,7 @@ Proyecto base para iniciar el desarrollo en **Angular 2.0**.
 - [Requerimientos](#requermientos)
 - [Instalacion](#instalacion)
 - [Ejecutar](#ejecutar)
+- [IDE](#ide)
 
 ##Requerimientos
 A continuación se describe los componentes necesarios y la preparación del entorno de desarrollo.
@@ -58,3 +59,26 @@ En una consola de NodeJS
 ```
 npm start
 ```
+
+##IDE
+El entorno de desarrollo puede ser Atom o Visual Studio Code, a continuacion se describe los pasos para el desarrollo con Visual Studio Code.
+
+ - Instalar Visual Studio Code 
+    [Instalador](https://code.visualstudio.com)
+
+ - Abrir la consola de NodeJS y ejecutar el comando :
+    ```
+    npm install typescript -g
+    ```
+ - Ir a *Archivo* > *Preferencias* > *configuracion de usuario* y agregar el siguiente codigo en el panel de la derecha
+ 
+    ```JSON
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vscode": true,
+        "**/.DS_Store": true,
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.js.map": true
+    }
+    ```
+ 
