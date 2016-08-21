@@ -5,7 +5,7 @@ Proyecto base para iniciar el desarrollo en **Angular 2.0**.
 - [Requerimientos](#requermientos)
 - [Instalacion](#instalacion)
 - [Ejecutar](#ejecutar)
-- [IDE](#ide)
+- [Entorno de desarrollo](#entorno-de-desarrollo)
 
 ##Requerimientos
 A continuación se describe los componentes necesarios y la preparación del entorno de desarrollo.
@@ -60,7 +60,7 @@ En una consola de NodeJS
 npm start
 ```
 
-##IDE
+##Entorno de desarrollo
 El entorno de desarrollo puede ser Atom o Visual Studio Code, a continuacion se describe los pasos para el desarrollo con Visual Studio Code.
 
  - Instalar Visual Studio Code 
