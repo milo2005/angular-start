@@ -1,11 +1,7 @@
 import {Component} from "@angular/core";
 
-import 'rxjs/add/observable/throw';
-import 'rxjs/add/operator/catch';
-import 'rxjs/add/operator/map';
-
 @Component({
-  selector:"my-app",
-  template:"<router-outlet></router-outlet>"
+  selector:"my-app", //La etiqueta HTML para usar el componente
+  template:"<my-list></my-list>" // Estructura html que contiene
 })
 export class AppComponent {}

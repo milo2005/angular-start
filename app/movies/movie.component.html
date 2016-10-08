@@ -1,0 +1,21 @@
+<div class="card" (click)="comprarPelicula()">
+    <img src="{{movie.image}}" alt="">
+    <div class="content">
+        <h1>{{movie.nombre}}</h1>
+        <div [ngSwitch]="movie.genero">
+            <div *ngSwitchCase="'Terror'">
+                <p class="genere terror">{{movie.genero}}</p>
+            </div>
+            <div *ngSwitchCase="'Fantasia'">
+                <p class="genere fantasia">{{movie.genero}}</p>
+            </div>
+            <div *ngSwitchDefault>
+                <p class="genere"> Sin genero </p>
+            </div>
+        </div>
+
+        <p>{{movie.sinopsis}}</p>
+        <p *ngIf="movie.estreno">{{movie.estreno | fecha}}</p>
+        <p>{{movie.precio | currency:"COP":true}}</p>
+    </div>
+</div>

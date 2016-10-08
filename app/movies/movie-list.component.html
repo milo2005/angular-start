@@ -1,0 +1,7 @@
+<my-appbar [title]="name"></my-appbar>
+
+<div class="content-list">
+    <div *ngFor="let m of movies; let i = index">
+        <my-movie [movie]="m" [index]="i" (comprar)="notificarCompra($event)"></my-movie>
+    </div>
+</div>
